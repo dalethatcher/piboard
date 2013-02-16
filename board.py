@@ -2,6 +2,7 @@ import pygame
 import time
 import curses
 
+pygame.mixer.pre_init(44100, -16, 2, 512)
 pygame.init()
 
 up = pygame.mixer.Sound('up.wav')
